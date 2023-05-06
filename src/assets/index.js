@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -51,6 +51,9 @@ import sumit from './testimonial/sumit.jpeg';
 import ravi from './testimonial/ravi.jpeg';
 import minu from './testimonial/minu.jpeg';
 
+import twitter from "./social/twitter.svg";
+import linkedin from "./social/linkedin.png";
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -74,6 +77,8 @@ export { logo, backend, creator, mobile, web, github, menu, close,
   cognizant, optum,
 
   sumit, ravi, minu,
+
+  twitter, linkedin,
 
   meta, shopify, starbucks, tesla, carrent, jobit, tripguide,
 };

@@ -12,6 +12,8 @@ import { mobile, backend, creator, web,
   cognizant, optum,
 
   sumit, ravi, minu,
+
+  twitter,
   
   meta,starbucks, tesla, shopify, carrent, jobit, tripguide,
   } from "../assets";
@@ -22,16 +24,16 @@ import { mobile, backend, creator, web,
       title: "About",
     },
     {
+      id: "Education",
+      title: "Education",
+    },
+    {
       id: "work",
       title: "Work",
     },
     {
       id: "contact",
       title: "Contact",
-    },
-    {
-      id: "resume",
-      title: "Resume",
     },
   ];
   

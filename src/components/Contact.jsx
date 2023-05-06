@@ -7,6 +7,9 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import { twitter, linkedin } from "../assets";
+
+
 const Contact = () => {
 
   const formRef = useRef();
@@ -75,6 +78,17 @@ const Contact = () => {
         <h3 className={styles.sectionHeadText}>
           Contact.
         </h3>
+
+        <div className='absolute inset-0 flex justify-end m-3 gap-5 card-img_hover'>
+            <div onClick={() => window.open(source_code_link, "_blank")} className='white-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer' >
+              <img src={linkedin} alt='source code' className='w-1/2 h-1/2 object-contain' />
+            </div>
+
+            <div onClick={() => window.open(source_code_link, "_blank")} className='white-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer' >
+              <img src={twitter} alt='source code' className='w-1/2 h-1/2 object-contain' />
+            </div>
+
+          </div>
 
         <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
           <label className="flex flex-col">
