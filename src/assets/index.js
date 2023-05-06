@@ -47,6 +47,10 @@ import rmk from "./company/rmk.png";
 import cognizant from "./company/cognizant.svg";
 import optum from "./company/optum.svg";
 
+import sumit from './testimonial/sumit.jpeg';
+import ravi from './testimonial/ravi.jpeg';
+import minu from './testimonial/minu.jpeg';
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -68,6 +72,8 @@ export { logo, backend, creator, mobile, web, github, menu, close,
   neu, husky, rmk,
 
   cognizant, optum,
+
+  sumit, ravi, minu,
 
   meta, shopify, starbucks, tesla, carrent, jobit, tripguide,
 };

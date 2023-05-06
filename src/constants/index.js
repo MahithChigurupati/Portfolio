@@ -10,6 +10,8 @@ import { mobile, backend, creator, web,
 
   neu, husky, rmk,
   cognizant, optum,
+
+  sumit, ravi, minu,
   
   meta,starbucks, tesla, shopify, carrent, jobit, tripguide,
   } from "../assets";
@@ -26,6 +28,10 @@ import { mobile, backend, creator, web,
     {
       id: "contact",
       title: "Contact",
+    },
+    {
+      id: "resume",
+      title: "Resume",
     },
   ];
   
@@ -204,7 +210,7 @@ import { mobile, backend, creator, web,
       name: "Ravi Kumar Pisupati",
       designation: "Enterprise Architect | Dir. Technology",
       company: "UnitedHealth Group",
-      image: "https://media.licdn.com/dms/image/D5603AQGJrclQq66CJw/profile-displayphoto-shrink_400_400/0/1676652681363?e=1688601600&v=beta&t=foDyl6ADNGl0z_qebcZPAKi_v6XRLN40QVWbMVdr2uc",
+      image: ravi,
     },
     {
       testimonial:
@@ -212,7 +218,7 @@ import { mobile, backend, creator, web,
       name: "Sumit Kumar",
       designation: "Associate Software Engineering Manager",
       company: "Optum",
-      image: "https://media.licdn.com/dms/image/D5603AQHttZ8dVBhH-w/profile-displayphoto-shrink_400_400/0/1680054963344?e=1688601600&v=beta&t=FfpAwHfvYKbHmQHcc6IAxpND3KjG8tTMmSKUyA4sLm8",
+      image: sumit,
     },
     {
       testimonial:
@@ -220,7 +226,7 @@ import { mobile, backend, creator, web,
       name: "MinuAishwariya Viswanathan",
       designation: "Sr. Developer",
       company: "Cognizant",
-      image: "https://media.licdn.com/dms/image/C5603AQE7X3wqaQsDKQ/profile-displayphoto-shrink_400_400/0/1621270342984?e=1688601600&v=beta&t=d8S_n9E8iDDjbTLRO3UzEfSwyOnZAOSRvTsAInw8G9g",
+      image: minu,
     },
   ];
   
