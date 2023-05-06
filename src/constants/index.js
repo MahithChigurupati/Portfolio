@@ -160,6 +160,35 @@ import { mobile, backend, creator, web,
     //   icon: pega,
     // },
   ];
+
+  const education = [
+    {
+      title: "Bachelor of Engineering",
+      company_name: "RMK Engineering College",
+      icon: rmk,
+      iconBg: "#E6DEDD",
+      date: "June 2019 - July 2021",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Graduate Student",
+      company_name: "Northeastern University",
+      icon: neu,
+      iconBg: "#E6DEDD",
+      date: "Fall 2022 - Present",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+  ];
   
   const experiences = [
     {
@@ -359,4 +388,4 @@ import { mobile, backend, creator, web,
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, education, experiences, testimonials, projects };
