@@ -1,28 +1,17 @@
-import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+import { mobile, backend, creator, web,
+
+  html, css, scss, javascript, typescript, nodejs, reactjs, redux,
+  java, python,
+  solidity, rust, foundry, hardhat,
+  mongodb, mysql, postgresql,
+  docker, figma, tailwind, threejs,
+  aws, terraform, git, linux,
+  pega,
+
+  neu, husky, rmk,
+  cognizant, optum,
+  
+  meta,starbucks, tesla, shopify, carrent, jobit, tripguide,
   } from "../assets";
   
   export const navLinks = [
@@ -68,6 +57,10 @@ import {
       name: "CSS 3",
       icon: css,
     },
+    // {
+    //   name: "SCSS",
+    //   icon: scss,
+    // },
     {
       name: "JavaScript",
       icon: javascript,
@@ -80,60 +73,95 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
     {
       name: "MongoDB",
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "postgresql",
+      icon: postgresql,
+    },
+    // {
+    //   name: "mysql",
+    //   icon: mysql,
+    // },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
+    {
+      name: "linux",
+      icon: linux,
     },
     {
-      name: "git",
-      icon: git,
+      name: "aws",
+      icon: aws,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "terraform",
+      icon: terraform,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "java",
+      icon: java,
     },
+    {
+      name: "python",
+      icon: python,
+    },
+    {
+      name: "solidity",
+      icon: solidity,
+    },
+    // {
+    //   name: "rust",
+    //   icon: rust,
+    // },
+    // {
+    //   name: "foundry",
+    //   icon: foundry,
+    // },
+    // {
+    //   name: "hardhat",
+    //   icon: hardhat,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "pega",
+    //   icon: pega,
+    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Programmer Analyst",
+      company_name: "Cognizant",
+      icon: cognizant,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "June 2019 - July 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,11 +170,11 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Software Engineer",
+      company_name: "Optum Global Solutions (UnitedHealth Group)",
+      icon: optum,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "August 2021 - August 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,11 +183,11 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Graduate Teaching Assistant",
+      company_name: "Northeastern University",
+      icon: neu,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "May 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -172,33 +200,33 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "SaiMahith is a self-motivated, hardworking, and approachable developer with a passion for learning technical skills with a can-do attitude, and a pleasure to work with.",
+      name: "Ravi Kumar Pisupati",
+      designation: "Enterprise Architect | Dir. Technology",
+      company: "UnitedHealth Group",
+      image: "https://media.licdn.com/dms/image/D5603AQGJrclQq66CJw/profile-displayphoto-shrink_400_400/0/1676652681363?e=1688601600&v=beta&t=foDyl6ADNGl0z_qebcZPAKi_v6XRLN40QVWbMVdr2uc",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Mahith is a hardworking and dedicated team player with excellent technical skills, focused on delivering quality work while also being open to learning new technologies and processes.",
+      name: "Sumit Kumar",
+      designation: "Associate Software Engineering Manager",
+      company: "Optum",
+      image: "https://media.licdn.com/dms/image/D5603AQHttZ8dVBhH-w/profile-displayphoto-shrink_400_400/0/1680054963344?e=1688601600&v=beta&t=FfpAwHfvYKbHmQHcc6IAxpND3KjG8tTMmSKUyA4sLm8",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Sai Mahith is a passionate, hardworking team player with a strong inclination towards learning and problem-solving.",
+      name: "MinuAishwariya Viswanathan",
+      designation: "Sr. Developer",
+      company: "Cognizant",
+      image: "https://media.licdn.com/dms/image/C5603AQE7X3wqaQsDKQ/profile-displayphoto-shrink_400_400/0/1621270342984?e=1688601600&v=beta&t=d8S_n9E8iDDjbTLRO3UzEfSwyOnZAOSRvTsAInw8G9g",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "NFT Dutch Auction Platform",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -219,7 +247,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Package Delivery System",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -240,7 +268,70 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "EasyTrack",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Cookie Mart",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Universal ID",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Web App",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
