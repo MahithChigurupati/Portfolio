@@ -16,6 +16,8 @@ import { mobile, backend, creator, web,
   twitter,
   
   meta,starbucks, tesla, shopify, carrent, jobit, tripguide,
+
+  cookiemart, earnforgood
   } from "../assets";
   
   export const navLinks = [
@@ -24,12 +26,16 @@ import { mobile, backend, creator, web,
       title: "About",
     },
     {
-      id: "Education",
+      id: "education",
       title: "Education",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "experience",
+      title: "Experience",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -343,7 +349,7 @@ import { mobile, backend, creator, web,
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: cookiemart,
       source_code_link: "https://github.com/",
     },
     {
@@ -364,7 +370,7 @@ import { mobile, backend, creator, web,
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: earnforgood,
       source_code_link: "https://github.com/",
     },
     {

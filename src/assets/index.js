@@ -53,6 +53,8 @@ import minu from './testimonial/minu.jpeg';
 
 import twitter from "./social/twitter.svg";
 import linkedin from "./social/linkedin.png";
+import outlook from "./social/outlook.svg";
+import dev from "./social/dev.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -62,6 +64,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import cookiemart from "./projects/cookiemart.png";
+import earnforgood from "./projects/earnforgood.png";
+
+import resume from './resume.pdf';
 
 export { logo, backend, creator, mobile, web, github, menu, close,
   html, css, scss, javascript, typescript, nodejs, reactjs, redux,
@@ -78,7 +85,11 @@ export { logo, backend, creator, mobile, web, github, menu, close,
 
   sumit, ravi, minu,
 
-  twitter, linkedin,
+  twitter, linkedin, outlook, dev,
+
+  resume, 
 
   meta, shopify, starbucks, tesla, carrent, jobit, tripguide,
+
+  cookiemart, earnforgood
 };
