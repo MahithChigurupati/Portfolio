@@ -34,6 +34,7 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 
 import aws from './tech/aws.png';
+import aws_cloud from './tech/amazon_aws.png';
 import terraform from './tech/terraform.png';
 import git from "./tech/git.png";
 import linux from './tech/linux.png';
@@ -55,6 +56,7 @@ import twitter from "./social/twitter.svg";
 import linkedin from "./social/linkedin.png";
 import outlook from "./social/outlook.svg";
 import dev from "./social/dev.png";
+import live from "./social/live.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -67,6 +69,10 @@ import tripguide from "./tripguide.png";
 
 import cookiemart from "./projects/cookiemart.png";
 import earnforgood from "./projects/earnforgood.png";
+import dutchauction from "./projects/dutchauction.png";
+import amazonian from "./projects/amazonian.png";
+import easytrack from "./projects/easytrack.png";
+import cloud from "./projects/aws_cloud.png";
 
 import resume from './resume.pdf';
 
@@ -76,7 +82,7 @@ export { logo, backend, creator, mobile, web, github, menu, close,
   java, python,
   solidity, rust, foundry, hardhat, tailwind, threejs,
   docker, figma,
-  git, aws, linux, terraform,
+  git, aws, linux, terraform, aws_cloud,
   pega,
 
   neu, husky, rmk,
@@ -85,11 +91,11 @@ export { logo, backend, creator, mobile, web, github, menu, close,
 
   sumit, ravi, minu,
 
-  twitter, linkedin, outlook, dev,
+  twitter, linkedin, outlook, dev, live,
 
   resume, 
 
   meta, shopify, starbucks, tesla, carrent, jobit, tripguide,
 
-  cookiemart, earnforgood
+  cookiemart, earnforgood, dutchauction, amazonian, easytrack, cloud
 };

@@ -5,6 +5,8 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { AvatarCanvas } from "./canvas";
 
+import { social } from "../constants";
+
 import { resume } from '../assets';
 import { linkedin, twitter, github, outlook, dev } from "../assets";
 
@@ -13,6 +15,15 @@ const texts = [
   'Blockchain Developer',
   'Full Stack Developer',
 ];
+
+const downloadResume = () => {
+  const link = document.createElement("a");
+  link.href = resume; 
+  link.download = "SaiMahith_Chigurupati.pdf";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
 
 
 const Hero = () => {
@@ -45,31 +56,15 @@ const Hero = () => {
             interfaces and web applications
           </p>
 
-
           <div className='z-10 flex flex-row justify-center sm:justify-start gap-8 card-img_hover ml-auto'>
-            <div onClick={() => window.open(source_code_link, "_blank")} className='bg-tertiary w-12 h-12 rounded-full flex justify-center items-center cursor-pointer' >
-              <img src={linkedin} alt='source code' className='w-1/2 h-1/2 object-contain' />
-            </div>
-
-            <div onClick={() => window.open(source_code_link, "_blank")} className='bg-tertiary w-12 h-12 rounded-full flex justify-center items-center cursor-pointer' >
-              <img src={twitter} alt='source code' className='w-1/2 h-1/2 object-contain' />
-            </div>
-
-            <div onClick={() => window.open(source_code_link, "_blank")} className='bg-tertiary w-12 h-12 rounded-full flex justify-center items-center cursor-pointer' >
-              <img src={outlook} alt='source code' className='w-1/2 h-1/2 object-contain' />
-            </div>
-
-            <div onClick={() => window.open(source_code_link, "_blank")} className='bg-tertiary w-12 h-12 rounded-full flex justify-center items-center cursor-pointer' >
-              <img src={github} alt='source code' className='w-1/2 h-1/2 object-contain' />
-            </div>
-
-            {/* <div onClick={() => window.open(source_code_link, "_blank")} className='w-12 h-12 rounded-full flex justify-center items-center cursor-pointer' >
-              <img src={dev} alt='source code' className='w-1/2 h-1/2 object-contain' />
-            </div> */}
-
+            {social.map((link, index) => (
+              <div key={index} onClick={() => window.open(link.url, "_blank")} className='bg-tertiary w-12 h-12 rounded-full flex justify-center items-center cursor-pointer'>
+                <img src={link.icon} alt='source code' className='w-1/2 h-1/2 object-contain' />
+              </div>
+            ))}
           </div>
 
-          <button type="submit" className="bg-tertiary py-3 px-8 mt-40 sm:ml-30 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl max-w-xs sm:max-w-sm mt-8 mr-auto hover:cursor-pointer">
+          <button type="button" onClick={downloadResume} className="bg-tertiary py-3 px-8 mt-40 sm:ml-30 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl max-w-xs sm:max-w-sm mt-8 mr-auto hover:cursor-pointer" >
             Download Resume
           </button>
           
