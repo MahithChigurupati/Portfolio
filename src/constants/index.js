@@ -1,22 +1,14 @@
 import { mobile, backend, creator, web,
 
-  html, css, scss, javascript, typescript, nodejs, reactjs, redux,
+  html, css, javascript, typescript, reactjs,
   java, python,
-  solidity, rust, foundry, hardhat,
-  mongodb, mysql, postgresql,
-  docker, figma, tailwind, threejs,
-  aws, terraform, git, linux, aws_cloud,
-  pega,
-
-  neu, husky, rmk,
+  solidity,
+  mongodb, postgresql,
+  aws, terraform, linux,
+  neu, rmk,
   cognizant, optum,
-
   sumit, ravi, minu,
-
-  twitter, linkedin, outlook, dev, live, github,
-  
-  meta,starbucks, tesla, shopify, carrent, jobit, tripguide,
-
+  twitter, linkedin, outlook, github,
   cookiemart, earnforgood, dutchauction, amazonian, easytrack, cloud
   } from "../assets";
   
@@ -71,10 +63,6 @@ import { mobile, backend, creator, web,
       name: "CSS 3",
       icon: css,
     },
-    // {
-    //   name: "SCSS",
-    //   icon: scss,
-    // },
     {
       name: "JavaScript",
       icon: javascript,
@@ -87,18 +75,6 @@ import { mobile, backend, creator, web,
       name: "React JS",
       icon: reactjs,
     },
-    // {
-    //   name: "Node JS",
-    //   icon: nodejs,
-    // },
-    // {
-    //   name: "Redux Toolkit",
-    //   icon: redux,
-    // },
-    // {
-    //   name: "Tailwind CSS",
-    //   icon: tailwind,
-    // },
     {
       name: "MongoDB",
       icon: mongodb,
@@ -107,18 +83,6 @@ import { mobile, backend, creator, web,
       name: "postgresql",
       icon: postgresql,
     },
-    // {
-    //   name: "mysql",
-    //   icon: mysql,
-    // },
-    // {
-    //   name: "Three JS",
-    //   icon: threejs,
-    // },
-    // {
-    //   name: "git",
-    //   icon: git,
-    // },
     {
       name: "linux",
       icon: linux,
@@ -143,37 +107,13 @@ import { mobile, backend, creator, web,
       name: "solidity",
       icon: solidity,
     },
-    // {
-    //   name: "rust",
-    //   icon: rust,
-    // },
-    // {
-    //   name: "foundry",
-    //   icon: foundry,
-    // },
-    // {
-    //   name: "hardhat",
-    //   icon: hardhat,
-    // },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
-    // {
-    //   name: "figma",
-    //   icon: figma,
-    // },
-    // {
-    //   name: "pega",
-    //   icon: pega,
-    // },
   ];
 
   const social = [
     {
       name: "LinkedIn",
       icon: linkedin,
-      url: "https://www.linkedin.com/in/mahithchigurupati/",
+      url: "https://www.linkedin.com/in/mahith-chigurupati/",
     },
     {
       name: "Twitter",

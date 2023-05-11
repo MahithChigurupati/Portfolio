@@ -2,13 +2,9 @@ import { motion } from "framer-motion";
 import Typed from 'react-typed';
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 import { AvatarCanvas } from "./canvas";
-
 import { social } from "../constants";
-
 import { resume } from '../assets';
-import { linkedin, twitter, github, outlook, dev } from "../assets";
 
 const texts = [
   'Software Engineer',
